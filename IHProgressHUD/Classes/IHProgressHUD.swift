@@ -889,6 +889,7 @@ public class IHProgressHUD : UIView {
     #endif
 
     private func updateMotionEffect(forXMotionEffectType xMotionEffectType: UIInterpolatingMotionEffect.EffectType, yMotionEffectType: UIInterpolatingMotionEffect.EffectType) {
+        /*
         let effectX = UIInterpolatingMotionEffect(keyPath: "center.x", type: xMotionEffectType)
         effectX.minimumRelativeValue = -IHProgressHUDParallaxDepthPoints
         effectX.maximumRelativeValue = IHProgressHUDParallaxDepthPoints
@@ -903,6 +904,7 @@ public class IHProgressHUD : UIView {
         // Clear old motion effect, then add new motion effects
         getHudView().motionEffects = []
         getHudView().addMotionEffect(effectGroup)
+        */
     }
 
     private func move(to newCenter: CGPoint, rotateAngle angle: CGFloat) {
