@@ -8,13 +8,4 @@ target 'IHProgressHUD_Example' do
     inherit! :search_paths
   end
 end
-target 'TodayExtensionDemo' do
-    platform :ios, '9.0'
-    pod 'IHProgressHUD', :path => '../'
-end
-
-target 'tvOSSample' do
-    platform :tvos, '9.0'
-    pod 'IHProgressHUD', :path => '../'
-end
 
